@@ -11,7 +11,7 @@
 		A1B2C3D61234567890ABCDEF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D51234567890ABCDEF /* ContentView.swift */; };
 		A1B2C3D81234567890ABCDEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B2C3D71234567890ABCDEF /* Assets.xcassets */; };
 		A1B2C3E51234567890ABCDEF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3E41234567890ABCDEF /* main.swift */; };
-		A1B2C3F01234567890ABCDEF /* com.keypath.smjoblessapp.helper in CopyFiles */ = {isa = PBXBuildFile; fileRef = A1B2C3E21234567890ABCDEF /* com.keypath.smjoblessapp.helper */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		A1B2C3F01234567890ABCDEF /* com.keypath.helperpoc.helper in CopyFiles */ = {isa = PBXBuildFile; fileRef = A1B2C3E21234567890ABCDEF /* com.keypath.helperpoc.helper */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -20,7 +20,7 @@
 			containerPortal = A1B2C3C81234567890ABCDEF /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A1B2C3E11234567890ABCDEF;
-			remoteInfo = "com.keypath.smjoblessapp.helper";
+			remoteInfo = "com.keypath.helperpoc.helper";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -31,7 +31,7 @@
 			dstPath = Contents/Library/LaunchServices;
 			dstSubfolderSpec = 1;
 			files = (
-				A1B2C3F01234567890ABCDEF /* com.keypath.smjoblessapp.helper in CopyFiles */,
+				A1B2C3F01234567890ABCDEF /* com.keypath.helperpoc.helper in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,7 +44,7 @@
 		A1B2C3D71234567890ABCDEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1B2C3DC1234567890ABCDEF /* SMJobBlessApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SMJobBlessApp.entitlements; sourceTree = "<group>"; };
 		A1B2C3DD1234567890ABCDEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A1B2C3E21234567890ABCDEF /* com.keypath.smjoblessapp.helper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = com.keypath.smjoblessapp.helper; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B2C3E21234567890ABCDEF /* com.keypath.helperpoc.helper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = com.keypath.helperpoc.helper; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1B2C3E41234567890ABCDEF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		A1B2C3E61234567890ABCDEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,7 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				A1B2C3D21234567890ABCDEF /* SMJobBlessApp */,
-				A1B2C3E31234567890ABCDEF /* com.keypath.smjoblessapp.helper */,
+				A1B2C3E31234567890ABCDEF /* com.keypath.helperpoc.helper */,
 				A1B2C3D11234567890ABCDEF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -80,7 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				A1B2C3D01234567890ABCDEF /* SMJobBlessApp.app */,
-				A1B2C3E21234567890ABCDEF /* com.keypath.smjoblessapp.helper */,
+				A1B2C3E21234567890ABCDEF /* com.keypath.helperpoc.helper */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,13 +97,13 @@
 			path = SMJobBlessApp;
 			sourceTree = "<group>";
 		};
-		A1B2C3E31234567890ABCDEF /* com.keypath.smjoblessapp.helper */ = {
+		A1B2C3E31234567890ABCDEF /* com.keypath.helperpoc.helper */ = {
 			isa = PBXGroup;
 			children = (
 				A1B2C3E41234567890ABCDEF /* main.swift */,
 				A1B2C3E61234567890ABCDEF /* Info.plist */,
 			);
-			path = com.keypath.smjoblessapp.helper;
+			path = com.keypath.helperpoc.helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,9 +128,9 @@
 			productReference = A1B2C3D01234567890ABCDEF /* SMJobBlessApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A1B2C3E11234567890ABCDEF /* com.keypath.smjoblessapp.helper */ = {
+		A1B2C3E11234567890ABCDEF /* com.keypath.helperpoc.helper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A1B2C3E81234567890ABCDEF /* Build configuration list for PBXNativeTarget "com.keypath.smjoblessapp.helper" */;
+			buildConfigurationList = A1B2C3E81234567890ABCDEF /* Build configuration list for PBXNativeTarget "com.keypath.helperpoc.helper" */;
 			buildPhases = (
 				A1B2C3DE1234567890ABCDEF /* Sources */,
 				A1B2C3DF1234567890ABCDEF /* Frameworks */,
@@ -139,9 +139,9 @@
 			);
 			dependencies = (
 			);
-			name = com.keypath.smjoblessapp.helper;
-			productName = com.keypath.smjoblessapp.helper;
-			productReference = A1B2C3E21234567890ABCDEF /* com.keypath.smjoblessapp.helper */;
+			name = com.keypath.helperpoc.helper;
+			productName = com.keypath.helperpoc.helper;
+			productReference = A1B2C3E21234567890ABCDEF /* com.keypath.helperpoc.helper */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -176,7 +176,7 @@
 			projectRoot = "";
 			targets = (
 				A1B2C3CF1234567890ABCDEF /* SMJobBlessApp */,
-				A1B2C3E11234567890ABCDEF /* com.keypath.smjoblessapp.helper */,
+				A1B2C3E11234567890ABCDEF /* com.keypath.helperpoc.helper */,
 			);
 		};
 /* End PBXProject section */
@@ -215,7 +215,7 @@
 /* Begin PBXTargetDependency section */
 		A1B2C3EF1234567890ABCDEF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A1B2C3E11234567890ABCDEF /* com.keypath.smjoblessapp.helper */;
+			target = A1B2C3E11234567890ABCDEF /* com.keypath.helperpoc.helper */;
 			targetProxy = A1B2C3EE1234567890ABCDEF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -353,7 +353,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.keypath.smjoblessapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keypath.helperpoc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -379,7 +379,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.keypath.smjoblessapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keypath.helperpoc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -391,8 +391,8 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = com.keypath.smjoblessapp.helper/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = com.keypath.smjoblessapp.helper;
+				INFOPLIST_FILE = com.keypath.helperpoc.helper/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keypath.helperpoc.helper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -403,8 +403,8 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = com.keypath.smjoblessapp.helper/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = com.keypath.smjoblessapp.helper;
+				INFOPLIST_FILE = com.keypath.helperpoc.helper/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keypath.helperpoc.helper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -431,7 +431,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A1B2C3E81234567890ABCDEF /* Build configuration list for PBXNativeTarget "com.keypath.smjoblessapp.helper" */ = {
+		A1B2C3E81234567890ABCDEF /* Build configuration list for PBXNativeTarget "com.keypath.helperpoc.helper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A1B2C3E91234567890ABCDEF /* Debug */,

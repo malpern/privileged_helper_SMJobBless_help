@@ -5,7 +5,7 @@ struct ContentView: View {
     @State private var helperStatus = "Not Installed"
     @State private var logMessages: [String] = []
     
-    let helperBundleID = "com.keypath.smjoblessapp.helper"
+    let helperBundleID = "com.keypath.helperpoc.helper"
     
     var body: some View {
         VStack(spacing: 20) {

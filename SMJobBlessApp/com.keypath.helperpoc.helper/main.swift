@@ -78,7 +78,7 @@ autoreleasepool {
     let helper = Helper()
     
     // Create XPC listener
-    let listener = NSXPCListener(machServiceName: "com.keypath.smjoblessapp.helper")
+    let listener = NSXPCListener(machServiceName: "com.keypath.helperpoc.helper")
     listener.delegate = helper
     
     // Start listening
