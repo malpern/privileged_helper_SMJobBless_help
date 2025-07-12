@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1B2C3D41234567890ABCDEF /* SMJobBlessAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D31234567890ABCDEF /* SMJobBlessAppApp.swift */; };
+		A1B2C3D61234567890ABCDEF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D51234567890ABCDEF /* ContentView.swift */; };
+		A1B2C3D81234567890ABCDEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B2C3D71234567890ABCDEF /* Assets.xcassets */; };
+		A1B2C3E51234567890ABCDEF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3E41234567890ABCDEF /* main.swift */; };
+		A1B2C3F01234567890ABCDEF /* com.keypath.smjoblessapp.helper in CopyFiles */ = {isa = PBXBuildFile; fileRef = A1B2C3E21234567890ABCDEF /* com.keypath.smjoblessapp.helper */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1B2C3EE1234567890ABCDEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1B2C3C81234567890ABCDEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1B2C3E11234567890ABCDEF;
+			remoteInfo = "com.keypath.smjoblessapp.helper";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A1B2C3EF1234567890ABCDEF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LaunchServices;
+			dstSubfolderSpec = 1;
+			files = (
+				A1B2C3F01234567890ABCDEF /* com.keypath.smjoblessapp.helper in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A1B2C3D01234567890ABCDEF /* SMJobBlessApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMJobBlessApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B2C3D31234567890ABCDEF /* SMJobBlessAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMJobBlessAppApp.swift; sourceTree = "<group>"; };
+		A1B2C3D51234567890ABCDEF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A1B2C3D71234567890ABCDEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1B2C3DC1234567890ABCDEF /* SMJobBlessApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SMJobBlessApp.entitlements; sourceTree = "<group>"; };
+		A1B2C3DD1234567890ABCDEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1B2C3E21234567890ABCDEF /* com.keypath.smjoblessapp.helper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = com.keypath.smjoblessapp.helper; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B2C3E41234567890ABCDEF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A1B2C3E61234567890ABCDEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1B2C3CD1234567890ABCDEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B2C3DF1234567890ABCDEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1B2C3C71234567890ABCDEF = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D21234567890ABCDEF /* SMJobBlessApp */,
+				A1B2C3E31234567890ABCDEF /* com.keypath.smjoblessapp.helper */,
+				A1B2C3D11234567890ABCDEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1B2C3D11234567890ABCDEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D01234567890ABCDEF /* SMJobBlessApp.app */,
+				A1B2C3E21234567890ABCDEF /* com.keypath.smjoblessapp.helper */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1B2C3D21234567890ABCDEF /* SMJobBlessApp */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D31234567890ABCDEF /* SMJobBlessAppApp.swift */,
+				A1B2C3D51234567890ABCDEF /* ContentView.swift */,
+				A1B2C3D71234567890ABCDEF /* Assets.xcassets */,
+				A1B2C3DC1234567890ABCDEF /* SMJobBlessApp.entitlements */,
+				A1B2C3DD1234567890ABCDEF /* Info.plist */,
+			);
+			path = SMJobBlessApp;
+			sourceTree = "<group>";
+		};
+		A1B2C3E31234567890ABCDEF /* com.keypath.smjoblessapp.helper */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3E41234567890ABCDEF /* main.swift */,
+				A1B2C3E61234567890ABCDEF /* Info.plist */,
+			);
+			path = com.keypath.smjoblessapp.helper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1B2C3CF1234567890ABCDEF /* SMJobBlessApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1B2C3DF1234567890ABCDEF /* Build configuration list for PBXNativeTarget "SMJobBlessApp" */;
+			buildPhases = (
+				A1B2C3CC1234567890ABCDEF /* Sources */,
+				A1B2C3CD1234567890ABCDEF /* Frameworks */,
+				A1B2C3CE1234567890ABCDEF /* Resources */,
+				A1B2C3EF1234567890ABCDEF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1B2C3EF1234567890ABCDEF /* PBXTargetDependency */,
+			);
+			name = SMJobBlessApp;
+			productName = SMJobBlessApp;
+			productReference = A1B2C3D01234567890ABCDEF /* SMJobBlessApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1B2C3E11234567890ABCDEF /* com.keypath.smjoblessapp.helper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1B2C3E81234567890ABCDEF /* Build configuration list for PBXNativeTarget "com.keypath.smjoblessapp.helper" */;
+			buildPhases = (
+				A1B2C3DE1234567890ABCDEF /* Sources */,
+				A1B2C3DF1234567890ABCDEF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = com.keypath.smjoblessapp.helper;
+			productName = com.keypath.smjoblessapp.helper;
+			productReference = A1B2C3E21234567890ABCDEF /* com.keypath.smjoblessapp.helper */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1B2C3C81234567890ABCDEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A1B2C3CF1234567890ABCDEF = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					A1B2C3E11234567890ABCDEF = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = A1B2C3CB1234567890ABCDEF /* Build configuration list for PBXProject "SMJobBlessApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1B2C3C71234567890ABCDEF;
+			productRefGroup = A1B2C3D11234567890ABCDEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1B2C3CF1234567890ABCDEF /* SMJobBlessApp */,
+				A1B2C3E11234567890ABCDEF /* com.keypath.smjoblessapp.helper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1B2C3CE1234567890ABCDEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B2C3D81234567890ABCDEF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1B2C3CC1234567890ABCDEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B2C3D61234567890ABCDEF /* ContentView.swift in Sources */,
+				A1B2C3D41234567890ABCDEF /* SMJobBlessAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B2C3DE1234567890ABCDEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B2C3E51234567890ABCDEF /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1B2C3EF1234567890ABCDEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1B2C3E11234567890ABCDEF /* com.keypath.smjoblessapp.helper */;
+			targetProxy = A1B2C3EE1234567890ABCDEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A1B2C3DA1234567890ABCDEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1B2C3DB1234567890ABCDEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A1B2C3DD1234567890ABCDEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SMJobBlessApp/SMJobBlessApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SMJobBlessApp/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keypath.smjoblessapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A1B2C3DE1234567890ABCDEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SMJobBlessApp/SMJobBlessApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SMJobBlessApp/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keypath.smjoblessapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A1B2C3E91234567890ABCDEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = com.keypath.smjoblessapp.helper/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keypath.smjoblessapp.helper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A1B2C3EA1234567890ABCDEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = com.keypath.smjoblessapp.helper/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keypath.smjoblessapp.helper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1B2C3CB1234567890ABCDEF /* Build configuration list for PBXProject "SMJobBlessApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B2C3DA1234567890ABCDEF /* Debug */,
+				A1B2C3DB1234567890ABCDEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1B2C3DF1234567890ABCDEF /* Build configuration list for PBXNativeTarget "SMJobBlessApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B2C3DD1234567890ABCDEF /* Debug */,
+				A1B2C3DE1234567890ABCDEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1B2C3E81234567890ABCDEF /* Build configuration list for PBXNativeTarget "com.keypath.smjoblessapp.helper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B2C3E91234567890ABCDEF /* Debug */,
+				A1B2C3EA1234567890ABCDEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1B2C3C81234567890ABCDEF /* Project object */;
+}
