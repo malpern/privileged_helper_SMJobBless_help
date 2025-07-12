@@ -15,7 +15,6 @@ This repository implements a complete SMJobBless privileged helper solution:
 
 This project was created after comprehensive testing showed SMAppService consistently fails with Error 108 on macOS 15, despite perfect configuration. After systematic elimination of all configuration possibilities in the [previous SMAppService attempt](https://github.com/malpern/privileged_helper_help), we're pivoting to the legacy but stable SMJobBless API.
 
-**Previous Attempt**: [privileged_helper_help](https://github.com/malpern/privileged_helper_help) - Documents the SMAppService failure with detailed analysis and multiple fix attempts that all resulted in persistent Error 108 "Unable to read plist" on macOS 15 Sequoia.
 
 ## What's Implemented
 
