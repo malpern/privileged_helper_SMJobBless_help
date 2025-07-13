@@ -3,61 +3,48 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		A1B2C3D41234567890ABCDEF /* SMJobBlessAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D31234567890ABCDEF /* SMJobBlessAppApp.swift */; };
-		A1B2C3D61234567890ABCDEF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D51234567890ABCDEF /* ContentView.swift */; };
-		A1B2C3D81234567890ABCDEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B2C3D71234567890ABCDEF /* Assets.xcassets */; };
-		A1B2C3E51234567890ABCDEF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3E41234567890ABCDEF /* main.swift */; };
-		A1B2C3F01234567890ABCDEF /* com.keypath.helperpoc.helper in CopyFiles */ = {isa = PBXBuildFile; fileRef = A1B2C3E21234567890ABCDEF /* com.keypath.helperpoc.helper */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		A1B2C3EE1234567890ABCDEF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A1B2C3C81234567890ABCDEF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A1B2C3E11234567890ABCDEF;
-			remoteInfo = "com.keypath.helperpoc.helper";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
-		A1B2C3EF1234567890ABCDEF /* CopyFiles */ = {
+		8616C0322E23324C00035102 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = Contents/Library/LaunchServices;
-			dstSubfolderSpec = 1;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
 			files = (
-				A1B2C3F01234567890ABCDEF /* com.keypath.helperpoc.helper in CopyFiles */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		A1B2C3D01234567890ABCDEF /* SMJobBlessApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMJobBlessApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1B2C3D31234567890ABCDEF /* SMJobBlessAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMJobBlessAppApp.swift; sourceTree = "<group>"; };
-		A1B2C3D51234567890ABCDEF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		A1B2C3D71234567890ABCDEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A1B2C3DC1234567890ABCDEF /* SMJobBlessApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SMJobBlessApp.entitlements; sourceTree = "<group>"; };
-		A1B2C3DD1234567890ABCDEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A1B2C3E21234567890ABCDEF /* com.keypath.helperpoc.helper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = com.keypath.helperpoc.helper; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1B2C3E41234567890ABCDEF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		A1B2C3E61234567890ABCDEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8616C01E2E2331E100035102 /* SMJobBlessApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMJobBlessApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8616C0342E23324C00035102 /* Helper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Helper; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		8616C0202E2331E100035102 /* SMJobBlessApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SMJobBlessApp;
+			sourceTree = "<group>";
+		};
+		8616C0352E23324C00035102 /* Helper */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Helper;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
 /* Begin PBXFrameworksBuildPhase section */
-		A1B2C3CD1234567890ABCDEF /* Frameworks */ = {
+		8616C01B2E2331E100035102 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A1B2C3DF1234567890ABCDEF /* Frameworks */ = {
+		8616C0312E23324C00035102 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -67,164 +54,142 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A1B2C3C71234567890ABCDEF = {
+		8616C0152E2331E100035102 = {
 			isa = PBXGroup;
 			children = (
-				A1B2C3D21234567890ABCDEF /* SMJobBlessApp */,
-				A1B2C3E31234567890ABCDEF /* com.keypath.helperpoc.helper */,
-				A1B2C3D11234567890ABCDEF /* Products */,
+				8616C0202E2331E100035102 /* SMJobBlessApp */,
+				8616C0352E23324C00035102 /* Helper */,
+				8616C01F2E2331E100035102 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A1B2C3D11234567890ABCDEF /* Products */ = {
+		8616C01F2E2331E100035102 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A1B2C3D01234567890ABCDEF /* SMJobBlessApp.app */,
-				A1B2C3E21234567890ABCDEF /* com.keypath.helperpoc.helper */,
+				8616C01E2E2331E100035102 /* SMJobBlessApp.app */,
+				8616C0342E23324C00035102 /* Helper */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		A1B2C3D21234567890ABCDEF /* SMJobBlessApp */ = {
-			isa = PBXGroup;
-			children = (
-				A1B2C3D31234567890ABCDEF /* SMJobBlessAppApp.swift */,
-				A1B2C3D51234567890ABCDEF /* ContentView.swift */,
-				A1B2C3D71234567890ABCDEF /* Assets.xcassets */,
-				A1B2C3DC1234567890ABCDEF /* SMJobBlessApp.entitlements */,
-				A1B2C3DD1234567890ABCDEF /* Info.plist */,
-			);
-			path = SMJobBlessApp;
-			sourceTree = "<group>";
-		};
-		A1B2C3E31234567890ABCDEF /* com.keypath.helperpoc.helper */ = {
-			isa = PBXGroup;
-			children = (
-				A1B2C3E41234567890ABCDEF /* main.swift */,
-				A1B2C3E61234567890ABCDEF /* Info.plist */,
-			);
-			path = com.keypath.helperpoc.helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A1B2C3CF1234567890ABCDEF /* SMJobBlessApp */ = {
+		8616C01D2E2331E100035102 /* SMJobBlessApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A1B2C3DF1234567890ABCDEF /* Build configuration list for PBXNativeTarget "SMJobBlessApp" */;
+			buildConfigurationList = 8616C02D2E2331E200035102 /* Build configuration list for PBXNativeTarget "SMJobBlessApp" */;
 			buildPhases = (
-				A1B2C3CC1234567890ABCDEF /* Sources */,
-				A1B2C3CD1234567890ABCDEF /* Frameworks */,
-				A1B2C3CE1234567890ABCDEF /* Resources */,
-				A1B2C3EF1234567890ABCDEF /* CopyFiles */,
+				8616C01A2E2331E100035102 /* Sources */,
+				8616C01B2E2331E100035102 /* Frameworks */,
+				8616C01C2E2331E100035102 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A1B2C3EF1234567890ABCDEF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8616C0202E2331E100035102 /* SMJobBlessApp */,
 			);
 			name = SMJobBlessApp;
+			packageProductDependencies = (
+			);
 			productName = SMJobBlessApp;
-			productReference = A1B2C3D01234567890ABCDEF /* SMJobBlessApp.app */;
+			productReference = 8616C01E2E2331E100035102 /* SMJobBlessApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A1B2C3E11234567890ABCDEF /* com.keypath.helperpoc.helper */ = {
+		8616C0332E23324C00035102 /* Helper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A1B2C3E81234567890ABCDEF /* Build configuration list for PBXNativeTarget "com.keypath.helperpoc.helper" */;
+			buildConfigurationList = 8616C0382E23324C00035102 /* Build configuration list for PBXNativeTarget "Helper" */;
 			buildPhases = (
-				A1B2C3DE1234567890ABCDEF /* Sources */,
-				A1B2C3DF1234567890ABCDEF /* Frameworks */,
+				8616C0302E23324C00035102 /* Sources */,
+				8616C0312E23324C00035102 /* Frameworks */,
+				8616C0322E23324C00035102 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = com.keypath.helperpoc.helper;
-			productName = com.keypath.helperpoc.helper;
-			productReference = A1B2C3E21234567890ABCDEF /* com.keypath.helperpoc.helper */;
+			fileSystemSynchronizedGroups = (
+				8616C0352E23324C00035102 /* Helper */,
+			);
+			name = Helper;
+			packageProductDependencies = (
+			);
+			productName = Helper;
+			productReference = 8616C0342E23324C00035102 /* Helper */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A1B2C3C81234567890ABCDEF /* Project object */ = {
+		8616C0162E2331E100035102 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1500;
-				LastUpgradeCheck = 1500;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
 				TargetAttributes = {
-					A1B2C3CF1234567890ABCDEF = {
-						CreatedOnToolsVersion = 15.0;
+					8616C01D2E2331E100035102 = {
+						CreatedOnToolsVersion = 16.2;
 					};
-					A1B2C3E11234567890ABCDEF = {
-						CreatedOnToolsVersion = 15.0;
+					8616C0332E23324C00035102 = {
+						CreatedOnToolsVersion = 16.2;
 					};
 				};
 			};
-			buildConfigurationList = A1B2C3CB1234567890ABCDEF /* Build configuration list for PBXProject "SMJobBlessApp" */;
-			compatibilityVersion = "Xcode 14.0";
+			buildConfigurationList = 8616C0192E2331E100035102 /* Build configuration list for PBXProject "SMJobBlessApp" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = A1B2C3C71234567890ABCDEF;
-			productRefGroup = A1B2C3D11234567890ABCDEF /* Products */;
+			mainGroup = 8616C0152E2331E100035102;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8616C01F2E2331E100035102 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A1B2C3CF1234567890ABCDEF /* SMJobBlessApp */,
-				A1B2C3E11234567890ABCDEF /* com.keypath.helperpoc.helper */,
+				8616C01D2E2331E100035102 /* SMJobBlessApp */,
+				8616C0332E23324C00035102 /* Helper */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A1B2C3CE1234567890ABCDEF /* Resources */ = {
+		8616C01C2E2331E100035102 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1B2C3D81234567890ABCDEF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A1B2C3CC1234567890ABCDEF /* Sources */ = {
+		8616C01A2E2331E100035102 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1B2C3D61234567890ABCDEF /* ContentView.swift in Sources */,
-				A1B2C3D41234567890ABCDEF /* SMJobBlessAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A1B2C3DE1234567890ABCDEF /* Sources */ = {
+		8616C0302E23324C00035102 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1B2C3E51234567890ABCDEF /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		A1B2C3EF1234567890ABCDEF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A1B2C3E11234567890ABCDEF /* com.keypath.helperpoc.helper */;
-			targetProxy = A1B2C3EE1234567890ABCDEF /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		A1B2C3DA1234567890ABCDEF /* Debug */ = {
+		8616C02B2E2331E200035102 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -257,7 +222,8 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -271,20 +237,22 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		A1B2C3DB1234567890ABCDEF /* Release */ = {
+		8616C02C2E2331E200035102 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -317,7 +285,8 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -325,16 +294,16 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
 			name = Release;
 		};
-		A1B2C3DD1234567890ABCDEF /* Debug */ = {
+		8616C02E2E2331E200035102 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -343,24 +312,25 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_ASSET_PATHS = "\"SMJobBlessApp/Preview Content\"";
+				DEVELOPMENT_TEAM = X2RKZ5TG99;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = SMJobBlessApp/Info.plist;
+				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.keypath.helperpoc;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keypath.helperpoc.SMJobBlessApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		A1B2C3DE1234567890ABCDEF /* Release */ = {
+		8616C02F2E2331E200035102 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -369,42 +339,41 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_ASSET_PATHS = "\"SMJobBlessApp/Preview Content\"";
+				DEVELOPMENT_TEAM = X2RKZ5TG99;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = SMJobBlessApp/Info.plist;
+				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.keypath.helperpoc;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keypath.helperpoc.SMJobBlessApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
-		A1B2C3E91234567890ABCDEF /* Debug */ = {
+		8616C0392E23324C00035102 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X2RKZ5TG99;
 				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = com.keypath.helperpoc.helper/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = com.keypath.helperpoc.helper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		A1B2C3EA1234567890ABCDEF /* Release */ = {
+		8616C03A2E23324C00035102 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X2RKZ5TG99;
 				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = com.keypath.helperpoc.helper/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = com.keypath.helperpoc.helper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -413,34 +382,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A1B2C3CB1234567890ABCDEF /* Build configuration list for PBXProject "SMJobBlessApp" */ = {
+		8616C0192E2331E100035102 /* Build configuration list for PBXProject "SMJobBlessApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A1B2C3DA1234567890ABCDEF /* Debug */,
-				A1B2C3DB1234567890ABCDEF /* Release */,
+				8616C02B2E2331E200035102 /* Debug */,
+				8616C02C2E2331E200035102 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A1B2C3DF1234567890ABCDEF /* Build configuration list for PBXNativeTarget "SMJobBlessApp" */ = {
+		8616C02D2E2331E200035102 /* Build configuration list for PBXNativeTarget "SMJobBlessApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A1B2C3DD1234567890ABCDEF /* Debug */,
-				A1B2C3DE1234567890ABCDEF /* Release */,
+				8616C02E2E2331E200035102 /* Debug */,
+				8616C02F2E2331E200035102 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A1B2C3E81234567890ABCDEF /* Build configuration list for PBXNativeTarget "com.keypath.helperpoc.helper" */ = {
+		8616C0382E23324C00035102 /* Build configuration list for PBXNativeTarget "Helper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A1B2C3E91234567890ABCDEF /* Debug */,
-				A1B2C3EA1234567890ABCDEF /* Release */,
+				8616C0392E23324C00035102 /* Debug */,
+				8616C03A2E23324C00035102 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A1B2C3C81234567890ABCDEF /* Project object */;
+	rootObject = 8616C0162E2331E100035102 /* Project object */;
 }
