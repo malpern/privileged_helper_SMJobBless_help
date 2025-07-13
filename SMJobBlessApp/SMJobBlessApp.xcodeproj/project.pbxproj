@@ -6,7 +6,31 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		0A476AC6D06E49DEBB9C9866 /* Helper in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8616C0342E23324C00035102 /* Helper */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41195FB9BA26442EBA546BAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8616C0162E2331E100035102 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8616C0332E23324C00035102;
+			remoteInfo = Helper;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
+		69A3FE78313B49BA8542D894 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LaunchServices;
+			dstSubfolderSpec = 1;
+			files = (
+				0A476AC6D06E49DEBB9C9866 /* Helper in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8616C0322E23324C00035102 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -82,10 +106,12 @@
 				8616C01A2E2331E100035102 /* Sources */,
 				8616C01B2E2331E100035102 /* Frameworks */,
 				8616C01C2E2331E100035102 /* Resources */,
+				69A3FE78313B49BA8542D894 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				41195FB9BA26442EBA546BAE /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				8616C0202E2331E100035102 /* SMJobBlessApp */,
@@ -183,6 +209,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41195FB9BA26442EBA546BAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8616C0332E23324C00035102 /* Helper */;
+			targetProxy = 41195FB9BA26442EBA546BAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		8616C02B2E2331E200035102 /* Debug */ = {
@@ -309,6 +343,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = SMJobBlessApp/SMJobBlessApp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -336,6 +371,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = SMJobBlessApp/SMJobBlessApp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -360,6 +396,7 @@
 		8616C0392E23324C00035102 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X2RKZ5TG99;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -371,6 +408,7 @@
 		8616C03A2E23324C00035102 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X2RKZ5TG99;
 				ENABLE_HARDENED_RUNTIME = YES;
