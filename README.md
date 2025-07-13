@@ -43,16 +43,29 @@ This project was created after comprehensive testing showed SMAppService consist
 - **Manual Code Signing**: Bypassed Apple's provisioning profile conflicts
 - **Swift 5.0**: Updated Authorization Services usage for modern Swift
 
-## How You Can Help Us Get Unstuck
+## Current Status: Stuck on CFErrorDomainLaunchd Error 2
 
-**Current State**: We've resolved all major build and configuration issues. The project compiles successfully and the SMPrivilegedExecutables section is correctly embedded in the final app bundle. **We're ready for the next phase: actual testing on macOS 15.**
+**Issue**: Despite extensive debugging and fixes, SMJobBless still fails with `CFErrorDomainLaunchd error 2` when attempting to install the privileged helper.
 
-### **What We Need Help With:**
-1. **🧪 Functional Testing**: Test the SMJobBless installation process on a real macOS 15 system
-2. **🔧 Runtime Debugging**: If installation fails, debug the actual SMJobBless API calls
-3. **📋 XPC Communication**: Verify the helper can be reached via XPC after installation
-4. **🛡️ Privilege Validation**: Confirm the helper runs with root privileges
-5. **🧹 Clean Uninstallation**: Test the helper removal process
+### **What We've Systematically Fixed:**
+1. ✅ **Helper embedding**: Correctly placed at `Contents/Library/LaunchServices/Helper`
+2. ✅ **launchd.plist embedding**: Properly embedded as `__TEXT __launchd_plist` section in Helper binary
+3. ✅ **Info.plist processing**: SMPrivilegedExecutables section correctly included in final app bundle
+4. ✅ **Code signing**: Both app and helper signed with Team ID X2RKZ5TG99
+5. ✅ **Authorization Services**: User authentication prompt works correctly
+6. ⚠️ **Bundle identifier mismatch**: Helper still signed as "Helper" instead of "com.keypath.helperpoc.helper"
+
+### **Remaining Problem:**
+The Helper binary identifier doesn't match what SMJobBless expects:
+- **Expected**: `com.keypath.helperpoc.helper` (from ContentView.swift SMJobBless call)
+- **Actual**: `Helper` (from codesign verification)
+- **Status**: Attempted to fix via PRODUCT_BUNDLE_IDENTIFIER but change didn't take effect
+
+### **Need Help With:**
+1. **🔧 Bundle Identifier Configuration**: Why isn't PRODUCT_BUNDLE_IDENTIFIER setting taking effect for Helper target?
+2. **🐛 Alternative Debugging**: Are there other causes of CFErrorDomainLaunchd error 2 we haven't considered?
+3. **📋 SMJobBless Validation**: Tool to validate complete SMJobBless configuration (like Apple's SMJobBlessUtil.py)
+4. **🧪 Real-world Testing**: Testing on different macOS 15 configurations to isolate the issue
 
 ### **What We've Completed:**
 - ✅ **Project structure** and build configuration
