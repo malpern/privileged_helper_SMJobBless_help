@@ -104,7 +104,8 @@
 - ✅ **Project builds successfully**: Both main app and helper targets compile
 - ✅ **XcodeBuild MCP debugging**: Resolved Swift compilation and signing issues
 - ✅ **Manual signing configured**: Apple Development identity working
-- 🔄 **Ready for testing**: App launches, helper installation pending verification
+- ✅ **Info.plist SMPrivilegedExecutables fix**: CRITICAL issue resolved (see 5.5 below)
+- 🔄 **Ready for testing**: App launches, helper installation ready for verification
 - 📋 **Next steps**: Test SMJobBless installation and XPC communication
 
 ### **5.4 Key Issues Resolved**
@@ -112,6 +113,24 @@
 - **Swift Compilation Errors**: Fixed AuthorizationFlags.defaults (deprecated) and unsafe pointer usage
 - **Code Signing**: Manual signing with Apple Development identity bypasses provisioning issues
 - **XcodeBuild MCP**: Command-line debugging essential for identifying precise build failures
+
+### **5.5 Critical Info.plist Fix (July 13, 2025)** ✅ **RESOLVED**
+**Problem**: SMPrivilegedExecutables section was missing from final app bundle's Info.plist despite being present in source. This would cause SMJobBless to fail with CFErrorDomainLaunchd error 2.
+
+**Root Cause**: Modern Xcode projects (object version 77) with PBXFileSystemSynchronizedRootGroup automatically include ALL files from the source directory as bundle resources, including Info.plist. This caused two issues:
+1. `GENERATE_INFOPLIST_FILE = YES` generated minimal Info.plist, overriding custom one
+2. Info.plist was being copied as a resource rather than processed as the main app Info.plist
+
+**Solution Applied**:
+1. Set `GENERATE_INFOPLIST_FILE = NO` for SMJobBlessApp target
+2. Set `INFOPLIST_FILE = SMJobBlessApp/Info.plist` explicitly  
+3. Added PBXFileSystemSynchronizedBuildFileExceptionSet to exclude Info.plist from automatic resource inclusion
+4. Created explicit PBXFileReference for Info.plist with proper type
+
+**Verification**: Built app now contains SMPrivilegedExecutables section with correct bundle identifier and code signing requirements string.
+
+**Files Modified**:
+- `/SMJobBlessApp.xcodeproj/project.pbxproj`: Build settings and file system synchronization exceptions
 
 ## **Phase 6: Documentation & Knowledge Transfer**
 
